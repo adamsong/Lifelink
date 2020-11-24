@@ -1,0 +1,30 @@
+{
+  "mod_id": "89jrDCZuhwYwEP",
+  "mod_reference": "Lifelink",
+  "name": "Lifelink",
+  "version": "0.0.1",
+  "sml_version": "2.2.1",
+  "remote_version": "0.0.1",
+  "description": "A mod to increase the challenge by linking player inventories and preventing respawns.",
+  "authors": ["adamsogm"],
+  "objects": [
+    {
+      "type": "sml_mod",
+      "path": "UE4-Lifelink-Win64-Shipping.dll"
+    },
+    {
+      "type": "pak",
+      "path": "Lifelink.pak",
+	  "metadata": {
+        "loading_priority": 1
+      }
+    }
+  ],
+  "resources": {
+	"icon": "Lifelink_Icon.png"
+  },
+  "dependencies": {
+  },
+  "optional_dependencies": {
+  }
+}
