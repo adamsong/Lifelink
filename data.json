@@ -24,6 +24,7 @@
 	"icon": "Lifelink_Icon.png"
   },
   "dependencies": {
+    "SML": ">=2.1.0"
   },
   "optional_dependencies": {
   }
